@@ -4,6 +4,9 @@
  * Todos los campos con [PLACEHOLDER] están diseñados para ser reemplazados por datos reales.
  */
 
+import photoPortrait from '../assets/images/executive_portrait_placeholder_1790812965488.jpg';
+import firmLogo from '../assets/images/executive_firm_logo_1790812978573.jpg';
+
 export interface CareerExperience {
   id: string;
   period: string; // e.g., "[2018 – 2024]"
@@ -119,10 +122,10 @@ export const initialProfileData: ProfileData = {
   linkedinUrl: "https://www.linkedin.com/in/placeholder-ejecutivo",
   linkedinDisplay: "linkedin.com/in/[tu-perfil]",
   companyName: "[FIRMA / GRUPO EMPRESARIAL]",
-  companyLogoUrl: "/src/assets/images/executive_firm_logo_1790812978573.jpg",
+  companyLogoUrl: firmLogo,
   location: "[CIUDAD, PAÍS]",
   websiteUrl: "https://www.ejemplo-financiero.com",
-  photoUrl: "/src/assets/images/executive_portrait_placeholder_1790812965488.jpg",
+  photoUrl: photoPortrait,
 
   // 4. Estadísticas y Logros (Placeholders sin inventar cifras)
   stats: [
