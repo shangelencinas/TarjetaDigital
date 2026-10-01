@@ -1,0 +1,6 @@
+{
+  "name": "Tarjeta Digital Ejecutiva & Asesoría Financiera",
+  "description": "Tarjeta de presentación digital interactiva y de alta gama para profesional del sector bancario y asesor empresarial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
